@@ -1,3 +1,4 @@
+import ComplexityTable from "./components/complexity-table";
 
 export default function Home() {
   return (
@@ -19,6 +20,11 @@ export default function Home() {
         </p>
 
       </section>
+
+      <section id="complexity-table">
+        <ComplexityTable />
+      </section>
+
 
     </div>
   );
