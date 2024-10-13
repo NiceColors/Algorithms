@@ -25,6 +25,25 @@ export default function Home() {
         <ComplexityTable />
       </section>
 
+      <section>
+        <p>
+          Podemos dizer que o melhor algoritmo para resolver um problema é aquele que possui a menor complexidade de tempo e espaço.
+          Em outras palavras, é o algoritmo que, conforme a entrada cresce tendendo ao infinito,
+          é aquele que apresenta a menor variação de tempo e memória utilizada para terminar.
+        </p>
+      </section>
+
+      <section>
+        <h1 className="text-3xl font-bold">
+          Estruturas de Dados
+        </h1>
+
+        <p>
+          As estruturas de dados são formas de armazenar e organizar dados em um computador para que possam ser usados de forma eficiente.
+          Elas são essenciais para a criação de algoritmos eficientes e para a resolução de problemas de forma eficiente.
+        </p>
+
+      </section>
 
     </div>
   );
