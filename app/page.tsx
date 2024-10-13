@@ -1,3 +1,4 @@
+import ArrayStructure from "./components/array-structure";
 import ComplexityTable from "./components/complexity-table";
 
 export default function Home() {
@@ -42,6 +43,9 @@ export default function Home() {
           As estruturas de dados são formas de armazenar e organizar dados em um computador para que possam ser usados de forma eficiente.
           Elas são essenciais para a criação de algoritmos eficientes e para a resolução de problemas de forma eficiente.
         </p>
+        <br />
+
+        <ArrayStructure />
 
       </section>
 
