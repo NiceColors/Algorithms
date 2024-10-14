@@ -1,5 +1,6 @@
-import ArrayStructure from "./components/array-structure";
-import ComplexityTable from "./components/complexity-table";
+import ArrayStructure from "../components/pages/home/components/array-structure";
+import ComplexityTable from "../components/pages/home/components/complexity-table";
+import StackStructure from "../components/pages/home/components/stack-structure";
 
 export default function Home() {
   return (
@@ -45,7 +46,10 @@ export default function Home() {
         </p>
         <br />
 
-        <ArrayStructure />
+        <div className="space-y-12">
+          <ArrayStructure />
+          <StackStructure />
+        </div>
 
       </section>
 
