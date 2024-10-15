@@ -1,3 +1,4 @@
+import { Sidebar } from "@/components/ui/sidebar";
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -28,8 +29,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <main className="max-w-7xl mx-auto py-6 px-2">
+        <main className="max-w-7xl mx-auto py-12 px-2">
           {children}
+          <Sidebar />
         </main>
       </body>
     </html>
