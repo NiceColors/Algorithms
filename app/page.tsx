@@ -1,10 +1,10 @@
-import ArrayStructure from "../components/pages/home/components/array-structure";
-import ComplexityTable from "../components/pages/home/components/complexity-table";
-import StackStructure from "../components/pages/home/components/stack-structure";
+import ArrayStructure from "../components/pages/home/components/structures/array-structure";
+import ComplexityTable from "../components/pages/home/components/structures/complexity-table";
+import StackStructure from "../components/pages/home/components/structures/stack-structure";
 
 export default function Home() {
   return (
-    <div className="grid items-center min-h-screen pb-20 gap-16 p-8 sm:px-20  font-[family-name:var(--font-geist-sans)]">
+    <div className="grid items-center min-h-screen pb-20 gap-16 sm:px-20  font-[family-name:var(--font-geist-sans)]">
       <section id="complexity-intro">
         <h1 className="text-3xl font-bold">
           Noções de complexidade

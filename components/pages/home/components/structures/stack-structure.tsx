@@ -79,7 +79,9 @@ export default function StackStructure() {
 
                 {
                     stack.map((item, index) => (
-                        <div key={index} className="p-4 bg-green-50 w-20 h-20 flex items-center justify-center">{item}</div>
+                        <div key={index} className="p-4 bg-green-50 w-20 h-20 flex items-center justify-center">
+                            {item}
+                        </div>
                     ))
                 }
 
