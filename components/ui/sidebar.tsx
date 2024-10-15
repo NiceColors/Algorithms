@@ -181,7 +181,7 @@ export const Sidebar = ({ sections }: ISidebarProps) => {
         },
     ]
 
-    const itemStyle = 'before:content-[""] before:w-[1px] before:h-[calc(60px+100%)] before:bg-slate-800 before:rounded-full before:absolute before:left-[-25px] before:top-[2px]'
+    const itemStyle = 'before:content-[""] before:w-[2px] before:h-[calc(20px+100%)] before:bg-green-200 before:rounded-full before:absolute before:left-[-23px] before:top-[25px]'
 
 
     return (
@@ -195,7 +195,7 @@ export const Sidebar = ({ sections }: ISidebarProps) => {
                                 {section.items.map((item, index) => (
                                     <li
                                         key={item.href}
-                                        className="text-sm relative before:content-[''] before:z-20 before:w-4 before:h-4 before:bg-slate-500 before:rounded-full before:absolute before:left-[-32px] before:top-[2px]"
+                                        className="text-sm relative before:content-[''] before:z-20 before:w-5 before:h-5  before:border before:border-green-500 before:bg-slate-50 before:rounded-full before:absolute before:left-[-32px] before:top-[0px] before:p-2"
                                     >
                                         <div
                                             className={index !== section.items.length - 1 ? itemStyle : ''}
