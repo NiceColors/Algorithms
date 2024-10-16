@@ -6,7 +6,7 @@ import { useEffect, useState } from "react"
 
 export default function StackStructure() {
 
-    const [stack, setStack] = useState<number[]>([1, 2, 3])
+    const [stack, setStack] = useState<number[]>([1, 2,])
     const [isAnimated, setIsAnimated] = useState(false)
     const addItem = () => {
 
